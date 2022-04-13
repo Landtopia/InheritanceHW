@@ -5,7 +5,7 @@ using namespace std;
 class Vehicle{
 
 	string manufacturer;
-	int year_built;
+	int year;
 
 public:
 
