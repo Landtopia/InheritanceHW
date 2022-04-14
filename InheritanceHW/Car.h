@@ -1,3 +1,6 @@
+#ifndef CAR_H_
+#define CAR_H_
+
 #include <iostream>
 #include "Vehicle.h"
 
@@ -9,7 +12,7 @@ class Car : public Vehicle{
 public:
 
 	Car();
-	Car(string manu, int yr, int dr);
+	Car(string manu, int yr, int drs);
 	int getDoors();
 
 	void setDoors(int x);
@@ -17,3 +20,4 @@ public:
 	void displayInfo();
 };
 
+#endif

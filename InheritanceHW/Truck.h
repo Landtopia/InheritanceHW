@@ -1,10 +1,13 @@
+#ifndef TRUCK_H_
+#define TRUCK_H_
+
 #include <iostream>
 #include "Vehicle.h"
 
 using namespace std;
 
 class Truck : public Vehicle {
-	int tow;
+	int tCap;
 
 public:
 	Truck();
@@ -13,3 +16,5 @@ public:
 	void setTow(int tow);
 	void displayInfo();
 };
+
+#endif

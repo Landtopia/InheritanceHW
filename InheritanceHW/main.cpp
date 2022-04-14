@@ -15,8 +15,8 @@ using namespace std;
 int main() {
 	string manu;
 	int yr;
-	int x;
-	int tow;
+	int drs;
+	int tCap;
 
 	cout << " ----Vehicle Program----" << endl << endl;
 
@@ -41,9 +41,9 @@ int main() {
 	cin >> yr;
 
 	cout << " Enter the number of doors: ";
-	cin >> x;
+	cin >> drs;
 
-	Car car(manu, yr, x);
+	Car car(manu, yr, drs);
 
 	car.displayInfo();
 	
@@ -57,9 +57,9 @@ int main() {
 	cin >> yr;
 
 	cout << " Enter the towing capacity: ";
-	cin >> tow;
+	cin >> tCap;
 
-	Truck tru(manu, yr, tow);
+	Truck tru(manu, yr, tCap);
 
 	tru.displayInfo();
 
