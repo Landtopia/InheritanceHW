@@ -1,3 +1,6 @@
+#ifndef VEHICLE_H_
+#define VEHICLE_H_
+
 #include <iostream>
 
 using namespace std;
@@ -22,3 +25,4 @@ public:
 	void displayInfo();
 };
 
+#endif
